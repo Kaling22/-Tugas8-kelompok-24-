@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void tampilData() {
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://vaksincovid19-api.vercel.app/api/vaksin";
+        String url = "https://vaksincovid19-api.vercel.app/api/vaksin";
         JSONObject jsonObject = new JSONObject();
         final String requestBody = jsonObject.toString();
 

@@ -113,32 +113,34 @@
             android:layout_marginTop="20dp"
             app:cardBackgroundColor="@color/card3"
             app:cardCornerRadius="12dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="8dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginRight="6dp">
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/lansia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:text="Total Sasaran Vaksin Lansia"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
                     android:textSize="16dp"
-                    android:gravity="center"/>
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/totallansia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="123123123"
+                    android:layout_marginTop="25dp"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:text="123123123"
                     android:textColor="@color/white"
-                    android:layout_marginTop="25dp"/>
+                    android:textSize="20dp" />
 
 
             </LinearLayout>
@@ -204,7 +206,7 @@
                 android:layout_marginRight="6dp">
 
                 <TextView
-                    android:id="@+id/lansia"
+                    android:id="@+id/dosis1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Total Vaksin Dosis 1 Indonesia"
@@ -246,7 +248,7 @@
                 android:layout_marginRight="6dp">
 
                 <TextView
-                    android:id="@+id/petugaspublik"
+                    android:id="@+id/dosis2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Total Vaksin Dosis 2 Indonesia"
